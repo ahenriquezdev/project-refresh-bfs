@@ -1,0 +1,15 @@
+# Ignore node_modules directory
+node_modules/
+
+mongodb/data
+
+nodejs/data
+
+# Ignore .env file
+.env
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.min.js

@@ -1,0 +1,17 @@
+# Usa la imagen oficial de Node.js como base
+FROM node:20.12.2
+
+# Setting the working dir
+WORKDIR /usr/src/app
+
+# Copy the entrypoint for nodejs
+COPY nodejs/app.js .
+
+# Copy the file with all dependencies
+COPY nodejs/package.json .
+
+# Installing dependencies before start
+RUN npm install
+
+# Comando por defecto para ejecutar la aplicación Node.js
+CMD ["npm", "start"]

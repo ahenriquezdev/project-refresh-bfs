@@ -1,0 +1,16 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "final project for intro bootcamp",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "ahenriquezdev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mockjs": "^1.1.0",
+    "mongodb": "^6.6.1"
+  }
+}

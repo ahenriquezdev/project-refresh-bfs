@@ -1,0 +1,71 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "project-endpoints",
+    "collectionId": "8fd48a32-1718-4d48-81f0-103e0d9c6b08",
+    "dateExported": "2024-05-13T06:13:17.428Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "dcc92ac5-98d6-450e-9092-583e5969ec4d",
+            "colId": "8fd48a32-1718-4d48-81f0-103e0d9c6b08",
+            "containerId": "",
+            "name": "getAllUsers",
+            "url": "localhost:3000/api/get/all",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-13T04:38:16.696Z",
+            "modified": "2024-05-13T04:38:26.187Z",
+            "headers": []
+        },
+        {
+            "_id": "6f76c910-1812-40fe-8fdf-68cd3091b7e4",
+            "colId": "8fd48a32-1718-4d48-81f0-103e0d9c6b08",
+            "containerId": "",
+            "name": "getUsersByName",
+            "url": "localhost:3000/api/get?name=John",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-13T04:39:08.099Z",
+            "modified": "2024-05-13T06:12:26.016Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "John",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "080b3da1-7fa9-4104-8d8a-74c211113ac1",
+            "colId": "8fd48a32-1718-4d48-81f0-103e0d9c6b08",
+            "containerId": "",
+            "name": "deleteUserById",
+            "url": "http://localhost:3000/api/delete/654188cdf854c925e23ed323",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-05-13T05:14:38.360Z",
+            "modified": "2024-05-13T05:33:43.298Z",
+            "headers": []
+        },
+        {
+            "_id": "aec19162-53de-43f6-988d-73d27d010665",
+            "colId": "8fd48a32-1718-4d48-81f0-103e0d9c6b08",
+            "containerId": "",
+            "name": "updateUserById",
+            "url": "http://localhost:3000/api/update/664188cdf854c925e23ed323",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-05-13T05:45:30.093Z",
+            "modified": "2024-05-13T06:01:18.288Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"first_name\": \"John\",\n  \"last_name\": \"Doe\",\n  \"email\": \"john@doe.com\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "Zy18_MJBwdH75YjhnTaoMcHtlRO8nxJp3QwJTdRZXX7Mrr7LFFe9N6v4YUy4a74AzavVUre_IQtDd5W7CdO5pA"
+}
